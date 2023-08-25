@@ -53,31 +53,7 @@ app.listen(3000, () => {
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------- */
 
 // View Engine: EJS
 // Request Parameters: Variables in the URL
