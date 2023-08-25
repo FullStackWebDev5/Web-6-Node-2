@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%=first_name%> | Social Media App</title>
+  <style>
+    .container {
+      width: max-content;
+      margin: auto;
+      text-align: center;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="<%=avatar%>">
+    <h2><%=first_name%> <%=last_name%></h2>
+    <h4><%=email%></h4>
+    <%if(likesIcecream) {%>
+      <h5>Hooray! You like icecream!!</h5>
+    <%}%>
+  </div>
+</body>
+</html>
